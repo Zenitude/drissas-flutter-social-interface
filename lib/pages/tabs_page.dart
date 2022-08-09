@@ -4,16 +4,16 @@ import 'package:my_app/imports/packages.dart';
 import 'package:my_app/imports/pages.dart';
 import 'package:my_app/widgets/appbar_widget.dart';
 
-class MainPage extends StatefulWidget {
-  const MainPage({Key? key}) : super(key: key);
+class TabsPage extends StatefulWidget {
+  const TabsPage({Key? key}) : super(key: key);
 
   @override
-  State<MainPage> createState() {
-    return _MainPageState();
+  State<TabsPage> createState() {
+    return _TabsPageState();
   }
 }
 
-class _MainPageState extends State<MainPage> {
+class _TabsPageState extends State<TabsPage> {
   int selectedIndex = 0;
 
   static const List<Widget> _pageOptions = <Widget>[
