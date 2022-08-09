@@ -1,6 +1,6 @@
 library home_page;
 
-import 'package:my_app/imports/packages.dart';
+import 'package:flutter/material.dart';
 import 'package:my_app/pages/home/components/firstpost_component.dart';
 
 class HomePage extends StatelessWidget {

@@ -1,6 +1,6 @@
 library appbar_widget;
 
-import 'package:my_app/imports/packages.dart';
+import 'package:flutter/material.dart';
 
 class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   const MyAppBar({Key? key, required this.title}) : super(key: key);

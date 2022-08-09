@@ -1,6 +1,6 @@
 library profil_page;
 
-import 'package:my_app/imports/packages.dart';
+import 'package:flutter/material.dart';
 import 'package:my_app/pages/profil/components/presentation_component.dart';
 import 'package:my_app/pages/profil/components/follow_component.dart';
 import 'package:my_app/pages/profil/components/about_component.dart';

@@ -1,7 +1,7 @@
 library main_page;
 
-import 'package:my_app/imports/packages.dart';
-import 'package:my_app/imports/pages.dart';
+import 'package:flutter/material.dart';
+import 'package:my_app/pages/pages.dart';
 import 'package:my_app/widgets/appbar_widget.dart';
 
 class TabsPage extends StatefulWidget {

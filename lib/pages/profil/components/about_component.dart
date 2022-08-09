@@ -1,7 +1,5 @@
 library about_component;
 
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class AboutProfil extends StatelessWidget {
