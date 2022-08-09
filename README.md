@@ -1,4 +1,4 @@
-# my_app
+# Driss As - Flutter Revolution - Social Interface
 
 A new Flutter project.
 
