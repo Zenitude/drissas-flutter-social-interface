@@ -8,7 +8,7 @@ class FollowProfil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    element(String title, double numbers) {
+    element(String title, String numbers) {
       return Column(
         children: 
         [
@@ -21,7 +21,7 @@ class FollowProfil extends StatelessWidget {
             ),
           ),
           Text(
-            '${numbers}K'
+            numbers
           ),
         ],
       );
@@ -33,9 +33,9 @@ class FollowProfil extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          element('Post', 2398),
-          element('Followers', 21.2),
-          element('Follow', 1200),
+          element('Post', '2398'),
+          element('Followers', '21.2K'),
+          element('Follow', '1200'),
         ],
       ),
     );

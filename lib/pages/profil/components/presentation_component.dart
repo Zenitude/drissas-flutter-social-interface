@@ -43,7 +43,7 @@ Widget imageProfil = Row(
       height: 150,
       decoration: BoxDecoration(
         border: Border.all(color: Colors.white, width: 3),
-        borderRadius: BorderRadius.circular(30),
+        borderRadius: BorderRadius.circular(105),
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(105),
@@ -72,7 +72,10 @@ Widget locationProfil = Row(
   crossAxisAlignment: CrossAxisAlignment.center,
   children: const
   [
-    Icon(Icons.location_city),
+    Icon(
+      Icons.location_city,
+      color: Colors.white,
+    ),
     Text(
       'Los Angeles, USA',
       style: TextStyle(
