@@ -1,21 +1,17 @@
 library home_page;
 
 import 'package:my_app/imports/packages.dart';
+import 'package:my_app/pages/home/components/firstpost_component.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() {
-    return _HomePageState();
-  }
-}
-
-class _HomePageState extends State<HomePage> {
-
-  @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('Hello Home !')
+    return SingleChildScrollView(
+      child: Column(children: [
+        firstPost,
+      ]),
     );
   }
 }
